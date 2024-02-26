@@ -105,7 +105,7 @@
             <div class="uk-width-expand">
                 <h3 class="home__Testimonials__title" uk-toggle="cls: uk-margin-top; mode: media; media: @l">Our Expertise</h3>
                 <div class="item-400px" uk-toggle="cls: item-400px; mode: media; media: @l">
-                    <h2 class="home__expertise__title1"><span class="uk-position-z-index-negative">230+</span></h2>
+                    <h2 class="home__expertise__title1"></h2>
                     <div class="home__expertise__title2">Completed Project</div>
                 </div>
             </div>

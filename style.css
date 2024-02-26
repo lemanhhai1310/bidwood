@@ -1389,6 +1389,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 8.375rem;
   }
 }
+.home__expertise__title1:after {
+  content: "230+";
+  z-index: 10;
+  position: relative;
+}
 .home__expertise__title2 {
   color: #FFF;
   leading-trim: both;
