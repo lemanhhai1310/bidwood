@@ -13,7 +13,22 @@ const xx = document.querySelectorAll.bind(document);
 
 const app = {
     render: function () {
-        
+        // Lazy load image
+        const imageElements = xx(".lazy");
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting){
+                    entry.target.src = entry.target.dataset.src;
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+        imageElements.forEach((image) => {
+            // observer.observe(image);
+            UIkit.img(image, {
+                loading: 'lazy',
+            });
+        });
     },
     start: function () {
         this.render();

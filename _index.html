@@ -1,10 +1,698 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta http-equiv="REFRESH" content="1800"/>
+    <title>Home - Bidwood</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1708973761">
 
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.3/dist/js/uikit-icons.min.js"></script>
+    <script src="js/app.js?v=1708973761"></script>
+</head>
+<body class="">
+<!--app-->
+<div id="app" class="uk-height-viewport uk-light uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+    <div class="uk-position-top uk-position-z-index header__position">
+        <nav class="header__navbar uk-navbar-container uk-navbar-transparent" uk-sticky="start: 200; animation: uk-animation-slide-top; media: @l">
+            <div class="uk-container uk-container-xlarge">
+                <div uk-navbar>
+
+                    <div class="uk-navbar-left">
+
+                        <ul class="uk-navbar-nav uk-visible@l">
+                            <li>
+                                <a href="#">Service <span uk-navbar-parent-icon></span></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#">Active</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-header">Header</li>
+                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Item</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Pricing Guide <span uk-navbar-parent-icon></span></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#">Active</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-header">Header</li>
+                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Item</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Process <span uk-navbar-parent-icon></span></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#">Active</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-header">Header</li>
+                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Item</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Investors</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="uk-navbar-center">
+                        <a href="" class="uk-navbar-item uk-logo header__navbar__logo"><img src="images/logo.png" alt=""></a>
+                    </div>
+
+                    <div class="uk-navbar-right">
+
+                        <ul class="uk-navbar-nav uk-visible@l">
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                        <div class="uk-navbar-item uk-visible@l">
+                            <a href="" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">Get Started</a>
+                        </div>
+
+                        <div class="uk-navbar-item">
+                            <a class="header__navbar__searchIcon" href="#modal-full" uk-search-icon uk-toggle></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="modal-full" class="uk-modal-full uk-modal" uk-modal>
+        <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
+            <button class="uk-modal-close-full" type="button" uk-close></button>
+            <form class="uk-search uk-search-large">
+                <input class="uk-search-input uk-text-center" type="search" placeholder="Search" aria-label="Search" autofocus>
+            </form>
+        </div>
+    </div>
+    <!--Banner-->
+    <div class="home__banner__bg uk-position-relative uk-background-norepeat uk-background-cover uk-background-center-center lazy" data-src="images/construction-plans-architectural-project1.png" uk-height-viewport="offset-bottom: 20">
+        <div class="uk-position-cover uk-background-norepeat uk-background-bottom-right lazy" data-src="images/banner_Ellipse26.png"></div>
+        <div class="uk-position-cover uk-flex uk-flex-bottom">
+            <div class="uk-width uk-section home__banner__section">
+                <div class="uk-container uk-container-xlarge">
+                    <div class="uk-child-width-auto@l uk-flex-between" uk-grid>
+                        <div>
+                            <div class="width-906px">
+                                <h2 class="home__banner__title">
+                                    We strive to deliver top-quality home remodels and renovations <span>that exceed your expectations</span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="width-533px">
+                                <p class="home__banner__desc">Our team of experienced professionals takes pride in transforming your house into your dream home, and we’re dedicated to making your remodeling process stress-free and enjoyable.</p>
+                                <p class="home__banner__desc">Whether you’re looking for a small renovation or a full-scale remodel, we’re here to make your dreams a reality. Contact us today to schedule your consultation and take the first step towards your dream home.  Learn more about our process here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Banner-->
+
+    <!--Intro-->
+    <div class="home__intro__section uk-section">
+        <div class="uk-container uk-container-xlarge">
+            <div class="uk-child-width-1-3@l" uk-grid uk-height-match=".my-class-img">
+                <div>
+                    <div class="home__intro__box">
+                        <div class="my-class-img uk-flex uk-flex-middle">
+                            <img class="lazy" data-src="images/intro1.png" alt="">
+                        </div>
+                        <h3 class="home__intro__box__title">Reliable Experts</h3>
+                        <div class="home__intro__box__txt width-376px">Lorem ipsum dolor sit amet consecte. Bibendum tempus aliquam sed.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="home__intro__box">
+                        <div class="my-class-img uk-flex uk-flex-middle">
+                            <img class="lazy" data-src="images/intro2.png" alt="">
+                        </div>
+                        <h3 class="home__intro__box__title">Licensed Contractor</h3>
+                        <div class="home__intro__box__txt width-376px">Lorem ipsum dolor sit amet consecte. Bibendum tempus aliquam sed.</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="home__intro__box">
+                        <div class="my-class-img uk-flex uk-flex-middle">
+                            <img class="lazy" data-src="images/intro3.png" alt="">
+                        </div>
+                        <h3 class="home__intro__box__title">Quality Guaranteed</h3>
+                        <div class="home__intro__box__txt width-376px">Lorem ipsum dolor sit amet consecte. Bibendum tempus aliquam sed.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Intro-->
+
+    <!--Who We Are-->
+    <div class="home__who__section uk-section-large uk-background-image@l">
+        <div class="uk-container uk-container-xlarge">
+            <h3 class="home__Testimonials__title uk-flex-center" style="display: flex">Who We Are</h3>
+
+            <h2 class="home__title home__title--67 item-60px uk-text-uppercase clip-text width-1526px uk-margin-auto uk-text-center">
+                Welcome to Bitwood Build, where we strive to deliver
+                <img class="lazy" data-src="images/Frame589.png" alt="">
+                top-quality home remodels. and renovations that exceed.
+                <img class="lazy" data-src="images/Frame590.png" alt="">
+                your expectations.
+            </h2>
+
+            <div class="width-1209px uk-margin-auto item-101px">
+                <div class="uk-cover-container">
+                    <img class="lazy" data-src="images/modern-styled-small-entryway1.png" alt="" uk-cover="">
+                    <canvas width="1209" height="629"></canvas>
+                    <a href="#modal-media-youtube" uk-toggle class="uk-position-center home__Testimonials__video__btnPlay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="218" height="218" viewBox="0 0 218 218" fill="none">
+                            <rect x="1.56214" y="1.56214" width="214.534" height="214.534" rx="107.267" stroke="white" stroke-width="3.12428"/>
+                            <path d="M89.8047 77.625L140.033 109.589L89.8047 141.553V77.625Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <p class="home__who__txt width-803px item-85px uk-margin-auto uk-text-center">
+                Whether you’re looking for a small renovation or a full-scale remodel, we’re here to make your dreams a reality. Contact us today to schedule your consultation and take the first step towards your dream home.
+            </p>
+            <div class="uk-text-center item-50px">
+                <a href="" class="home__btn home__btn--outline uk-button uk-button-primary uk-border-pill">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!--/Who We Are-->
+
+    <div class="home__expertise__section uk-section-large">
+        <div class="uk-container uk-container-xlarge">
+            <div class="uk-grid-divider uk-grid-large" uk-grid>
+                <div class="uk-width-expand">
+                    <h3 class="home__Testimonials__title" uk-toggle="cls: uk-margin-top; mode: media; media: @l">Our Expertise</h3>
+                    <div class="item-400px" uk-toggle="cls: item-400px; mode: media; media: @l">
+                        <h2 class="home__expertise__title1"><span class="uk-position-z-index-negative">230+</span></h2>
+                        <div class="home__expertise__title2">Completed Project</div>
+                    </div>
+                </div>
+                <div class="uk-width-auto@l">
+                    <div class="width-1084px">
+                        <h2 class="home__title home__title--67 clip-text">Nulla neque lorem aliquam lectus consequat scelerisque fermentum.</h2>
+                        <p class="home__contact__txt width-651px item-46px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc. Malesuada eget non pretium aliquet. Imperdiet id amet pulvinar eleifend mauris</p>
+                        <div class="uk-child-width-1-2@l item-208px" uk-grid>
+                            <div>
+                                <div class="home__expertise__box uk-background-norepeat" style="--img: url(images/v1.png)">
+                                    <h4 class="home__expertise__box__title clip-text">High Quality</h4>
+                                    <p class="home__contact__txt width-305px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="home__expertise__box uk-background-norepeat" style="--img: url(images/v2.png)">
+                                    <h4 class="home__expertise__box__title clip-text">Professional Technique</h4>
+                                    <p class="home__contact__txt width-305px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="home__expertise__box uk-background-norepeat" style="--img: url(images/v3.png)">
+                                    <h4 class="home__expertise__box__title clip-text">Varierty of Material</h4>
+                                    <p class="home__contact__txt width-305px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="home__expertise__box uk-background-norepeat" style="--img: url(images/v4.png)">
+                                    <h4 class="home__expertise__box__title clip-text">Custom Production</h4>
+                                    <p class="home__contact__txt width-305px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home__startBox uk-card uk-card-body item-216px uk-text-center">
+                <div class="home__contact__flex uk-flex uk-flex-column">
+                    <h2 class="home__title uk-position-z-index clip-text home__title--60 home__title--lineBottom">Start The Process Now!</h2>
+                    <div class="home__contact__txt uk-position-z-index width-1021px uk-margin-auto">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc. Malesuada eget non pretium aliquet. Imperdiet id amet pulvinar eleifend mauris</div>
+                    <div>
+                        <div class="uk-position-z-index uk-child-width-1-3@l uk-grid-small uk-grid-32-l" uk-grid>
+                            <div>
+                                <a href="" class="home__btn uk-width home__btn--outline uk-button uk-button-primary uk-border-pill">Get Started on Your Dream Bathroom!</a>
+                            </div>
+                            <div>
+                                <a href="" class="home__btn uk-width home__btn--outline uk-button uk-button-primary uk-border-pill">Get Started on Your Dream Kitchen</a>
+                            </div>
+                            <div>
+                                <a href="" class="home__btn uk-width home__btn--outline uk-button uk-button-primary uk-border-pill">Get Started on Your Basement</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-child-width-auto uk-flex-between item-273px" uk-grid>
+                <div>
+                    <h3 class="home__Testimonials__title" uk-toggle="cls: uk-margin-top; mode: media; media: @l">Our Sevices</h3>
+                </div>
+                <div>
+                    <h2 class="home__title home__title--67 clip-text width-1084px">Nulla neque lorem aliquam lectus consequat scelerisque fermentum.</h2>
+                </div>
+            </div>
+            <div class="uk-child-width-1-2@l item-150px uk-grid-row-large uk-grid-column-medium" uk-grid uk-scrollspy="target: .anima; repeat: false; cls: animate; delay: 200">
+                <div>
+                    <div class="anima">
+                        <div class="uk-cover-container">
+                            <img class="lazy" data-src="images/service1.png" alt="" uk-cover="">
+                            <canvas width="831" height="500"></canvas>
+                        </div>
+                        <div class="item-52px" uk-grid>
+                            <div class="uk-width-expand">
+                                <h3 class="home__service__title clip-text"><a href="" class="uk-link-toggle">Kitchen Remodeling</a></h3>
+                                <div class="home__service__txt width-324px">Nulla neque lorem aliquam lectus consequat scelerisque fermentum sit justo.</div>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a href="" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="anima">
+                        <div class="uk-cover-container">
+                            <img class="lazy" data-src="images/service2.png" alt="" uk-cover="">
+                            <canvas width="831" height="500"></canvas>
+                        </div>
+                        <div class="item-52px" uk-grid>
+                            <div class="uk-width-expand">
+                                <h3 class="home__service__title clip-text"><a href="" class="uk-link-toggle">Bathroom Remodeling</a></h3>
+                                <div class="home__service__txt width-324px">Nulla neque lorem aliquam lectus consequat scelerisque fermentum sit justo.</div>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a href="" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="anima">
+                        <div class="uk-cover-container">
+                            <img class="lazy" data-src="images/service3.png" alt="" uk-cover="">
+                            <canvas width="831" height="500"></canvas>
+                        </div>
+                        <div class="item-52px" uk-grid>
+                            <div class="uk-width-expand">
+                                <h3 class="home__service__title clip-text"><a href="" class="uk-link-toggle">Basement Remodeling</a></h3>
+                                <div class="home__service__txt width-324px">Nulla neque lorem aliquam lectus consequat scelerisque fermentum sit justo.</div>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a href="" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="anima">
+                        <div class="uk-cover-container">
+                            <img class="lazy" data-src="images/service4.png" alt="" uk-cover="">
+                            <canvas width="831" height="500"></canvas>
+                        </div>
+                        <div class="item-52px" uk-grid>
+                            <div class="uk-width-expand">
+                                <h3 class="home__service__title clip-text"><a href="" class="uk-link-toggle">Tile & Flooring</a></h3>
+                                <div class="home__service__txt width-324px">Nulla neque lorem aliquam lectus consequat scelerisque fermentum sit justo.</div>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a href="" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="anima">
+                        <div class="uk-cover-container">
+                            <img class="lazy" data-src="images/service5.png" alt="" uk-cover="">
+                            <canvas width="831" height="500"></canvas>
+                        </div>
+                        <div class="item-52px" uk-grid>
+                            <div class="uk-width-expand">
+                                <h3 class="home__service__title clip-text"><a href="" class="uk-link-toggle">Investor Services</a></h3>
+                                <div class="home__service__txt width-324px">Nulla neque lorem aliquam lectus consequat scelerisque fermentum sit justo.</div>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a href="" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="anima">
+                        <div class="uk-cover-container">
+                            <img class="lazy" data-src="images/service6.png" alt="" uk-cover="">
+                            <canvas width="831" height="500"></canvas>
+                        </div>
+                        <div class="item-52px" uk-grid>
+                            <div class="uk-width-expand">
+                                <h3 class="home__service__title clip-text"><a href="" class="uk-link-toggle">Handyman Services</a></h3>
+                                <div class="home__service__txt width-324px">Nulla neque lorem aliquam lectus consequat scelerisque fermentum sit justo.</div>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a href="" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Our Projects-->
+    <div class="home__project__section uk-section-large uk-height-viewport">
+        <div class="uk-container uk-container-xlarge">
+            <h3 class="home__Testimonials__title">Our Projects</h3>
+            <div class="uk-child-width-auto@l item-57px" uk-grid>
+                <div>
+                    <h2 class="home__title home__title--67 clip-text width-1078px">Est mattis dolor eget sociis quam nunc. Malesuada eget non</h2>
+                </div>
+                <div>
+                    <p class="home__contact__txt width-463px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc. Malesuada eget non pretium aliquet. Imperdiet id amet pulvinar eleifend mauris</p>
+                    <div class="item-69px">
+                        <a href="" class="home__btn home__btn--outline uk-button uk-button-primary uk-border-pill">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-148px uk-flex-right" uk-grid>
+                <div class="uk-width-auto">
+                    <div class="width-1266px">
+                        <div class="uk-child-width-1-2@m uk-grid-large" uk-grid="parallax: 255; parallax-start: 10%; parallax-end: 50%;">
+                            <div>
+                                <div class="uk-card">
+                                    <div class="uk-cover-container">
+                                        <img class="lazy" data-src="images/project1.png" alt="" uk-cover="">
+                                        <canvas width="592" height="482"></canvas>
+                                    </div>
+                                    <div class="uk-card-body home__project__card__body">
+                                        <h4 class="home__project__card__title uk-position-z-index"><a href="" class="uk-link-toggle">Foerster St.</a></h4>
+                                        <div class="home__project__card__txt item-44px uk-position-z-index">Bathroom Remodel, Kitchen Remodel, Tile & Flooring</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card">
+                                    <div class="uk-cover-container">
+                                        <img class="lazy" data-src="images/project2.png" alt="" uk-cover="">
+                                        <canvas width="592" height="482"></canvas>
+                                    </div>
+                                    <div class="uk-card-body home__project__card__body">
+                                        <h4 class="home__project__card__title uk-position-z-index"><a href="" class="uk-link-toggle">Foerster St.</a></h4>
+                                        <div class="home__project__card__txt item-44px uk-position-z-index">Bathroom Remodel, Kitchen Remodel, Tile & Flooring</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card">
+                                    <div class="uk-cover-container">
+                                        <img class="lazy" data-src="images/project3.png" alt="" uk-cover="">
+                                        <canvas width="592" height="482"></canvas>
+                                    </div>
+                                    <div class="uk-card-body home__project__card__body">
+                                        <h4 class="home__project__card__title uk-position-z-index"><a href="" class="uk-link-toggle">Foerster St.</a></h4>
+                                        <div class="home__project__card__txt item-44px uk-position-z-index">Bathroom Remodel, Kitchen Remodel, Tile & Flooring</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card">
+                                    <div class="uk-cover-container">
+                                        <img class="lazy" data-src="images/project4.png" alt="" uk-cover="">
+                                        <canvas width="592" height="482"></canvas>
+                                    </div>
+                                    <div class="uk-card-body home__project__card__body">
+                                        <h4 class="home__project__card__title uk-position-z-index"><a href="" class="uk-link-toggle">Foerster St.</a></h4>
+                                        <div class="home__project__card__txt item-44px uk-position-z-index">Bathroom Remodel, Kitchen Remodel, Tile & Flooring</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Our Projects-->
+
+    <!--Testimonials-->
+    <div class="home__Testimonials__section uk-section-large uk-background-image@l">
+        <div class="uk-container uk-container-xlarge uk-container-expand-right">
+            <div class="uk-container-item-padding-remove-right" uk-toggle="cls: uk-container-item-padding-remove-right; mode: media; media: @l">
+                <div class="uk-grid-263-l" uk-grid>
+                    <div class="uk-width-auto@l">
+                        <h3 class="home__Testimonials__title" uk-toggle="cls: uk-margin-top; mode: media; media: @l">Testimonials</h3>
+                    </div>
+                    <div class="uk-width-expand">
+                        <h2 class="home__title clip-text home__title--67">What our clients say?</h2>
+                        <p class="home__contact__txt width-696px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc.</p>
+                        <div class="item-108px uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+                            <ul class="uk-slider-items uk-grid-small uk-grid-28-l" uk-grid>
+                                <li class="uk-width-4-5 uk-width-auto@l">
+                                    <div class="home__Testimonials__boxCard uk-card uk-card-body width-592px">
+                                        <div class="uk-grid-small uk-grid-35-l" uk-grid>
+                                            <div class="uk-width-1-3 uk-width-auto@l">
+                                                <div class="uk-cover-container">
+                                                    <img class="lazy" data-src="images/Frame589_1.png" alt="" uk-cover="">
+                                                    <canvas width="151" height="89"></canvas>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <h4 class="home__Testimonials__boxCard__name clip-text">Jamnie Langston</h4>
+                                                <div class="home__Testimonials__boxCard__txt">BOSTON</div>
+                                            </div>
+                                        </div>
+                                        <div class="home__contact__txt">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc.</div>
+                                    </div>
+                                </li>
+                                <li class="uk-width-4-5 uk-width-auto@l">
+                                    <div class="home__Testimonials__boxCard uk-card uk-card-body width-592px">
+                                        <div class="uk-grid-small uk-grid-35-l" uk-grid>
+                                            <div class="uk-width-1-3 uk-width-auto@l">
+                                                <div class="uk-cover-container">
+                                                    <img class="lazy" data-src="images/Frame589_2.png" alt="" uk-cover="">
+                                                    <canvas width="151" height="89"></canvas>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <h4 class="home__Testimonials__boxCard__name clip-text">Jamnie Langston</h4>
+                                                <div class="home__Testimonials__boxCard__txt">BOSTON</div>
+                                            </div>
+                                        </div>
+                                        <div class="home__contact__txt">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc.</div>
+                                    </div>
+                                </li>
+                                <li class="uk-width-4-5 uk-width-auto@l">
+                                    <div class="home__Testimonials__boxCard uk-card uk-card-body width-592px">
+                                        <div class="uk-grid-small uk-grid-35-l" uk-grid>
+                                            <div class="uk-width-1-3 uk-width-auto@l">
+                                                <div class="uk-cover-container">
+                                                    <img class="lazy" data-src="images/Frame589_3.png" alt="" uk-cover="">
+                                                    <canvas width="151" height="89"></canvas>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <h4 class="home__Testimonials__boxCard__name clip-text">Jamnie Langston</h4>
+                                                <div class="home__Testimonials__boxCard__txt">BOSTON</div>
+                                            </div>
+                                        </div>
+                                        <div class="home__contact__txt">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc.</div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul class="home__Testimonials__slider__dotnav uk-flex-middle uk-slider-nav uk-dotnav uk-margin-medium"></ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-189px uk-container uk-container-xlarge">
+            <div class="uk-cover-container">
+                <img class="lazy" data-src="images/unsplash_v2aKnjMbP_k.png" alt="" uk-cover="">
+                <canvas width="1704" height="716"></canvas>
+                <a href="#modal-media-youtube" uk-toggle class="uk-position-center home__Testimonials__video__btnPlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="218" height="218" viewBox="0 0 218 218" fill="none">
+                        <rect x="1.56214" y="1.56214" width="214.534" height="214.534" rx="107.267" stroke="white" stroke-width="3.12428"/>
+                        <path d="M89.8047 77.625L140.033 109.589L89.8047 141.553V77.625Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <iframe src="https://www.youtube-nocookie.com/embed/xcJtL7QggTI" width="1920" height="1080" uk-video uk-responsive></iframe>
+        </div>
+    </div>
+    <!--/Testimonials-->
+
+    <!--Contact-->
+    <div class="uk-section home__contact__section uk-text-center">
+        <div class="uk-container uk-container-xlarge">
+            <div class="home__contact__flex uk-flex uk-flex-column">
+                <h2 class="home__title clip-text home__title--60 home__title--lineBottom width-841px uk-margin-auto">Call The Leading Home
+                    Remodeling Contractor Today!</h2>
+                <p class="home__contact__txt width-1021px uk-margin-auto">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc. Malesuada eget non pretium aliquet. Imperdiet id amet pulvinar eleifend mauris</p>
+                <div><a href="" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">Contact Now</a></div>
+            </div>
+        </div>
+    </div>
+    <!--/Contact-->
+    <footer class="footer uk-background-norepeat uk-background-bottom-right" data-src="images/bg_footer_Ellipse28.png" uk-img>
+        <div class="uk-container uk-container-xlarge">
+            <div class="footer__top__section uk-section-large">
+                <div class="uk-grid-292-l" uk-grid>
+                    <div class="uk-width-auto@l">
+                        <div class="footer__boxFlex uk-flex uk-flex-column">
+                            <figure class="footer__logo"><a href=""><img class="lazy" data-src="images/logo_footer.png" alt=""></a></figure>
+                            <p class="footer__txt1 width-388px">At Bitwood Build, we are here to manage every aspect of your home construction or service process.  </p>
+                            <div>
+                                <div class="uk-child-width-auto uk-grid-8" uk-grid>
+                                    <div>
+                                        <a href="">
+                                            <svg class="footer__social__icon" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                                <circle cx="27.3563" cy="27.3563" r="26.3563" stroke="#70B22F" stroke-width="1.32311"/>
+                                                <path d="M36.1441 22.4588C35.4984 22.7458 34.8029 22.939 34.0737 23.0269C34.819 22.5803 35.3886 21.8745 35.6595 21.0326C34.9625 21.4455 34.1908 21.7457 33.3694 21.9068C32.7134 21.2054 31.7748 20.7676 30.7396 20.7676C28.4115 20.7676 26.7012 22.939 27.2269 25.194C24.2325 25.0432 21.5749 23.6082 19.7973 21.428C18.8529 23.0474 19.3083 25.1676 20.9131 26.2409C20.323 26.2219 19.7681 26.0593 19.2819 25.7899C19.2424 27.4592 20.4402 29.0215 22.1738 29.37C21.6672 29.5076 21.1108 29.5399 20.5456 29.4315C21.0039 30.8635 22.3378 31.9046 23.9133 31.9339C22.3949 33.1228 20.487 33.6544 18.5732 33.4289C20.1693 34.4524 22.0625 35.0483 24.0978 35.0483C30.7923 35.0483 34.573 29.3949 34.3446 24.3242C35.0504 23.8176 35.6609 23.1821 36.1441 22.4588Z" fill="white"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <svg class="footer__social__icon" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                                <circle cx="27.414" cy="27.3563" r="26.3563" stroke="#70B22F" stroke-width="1.32311"/>
+                                                <path d="M24.8504 24.4273H21.9219V27.3558H24.8504V36.1412H29.2431V27.3558H31.908L32.1716 24.4273H29.2431V23.2076C29.2431 22.5077 29.3836 22.2309 30.0601 22.2309H32.1716V18.5703H28.6515C26.0188 18.5703 24.8504 19.73 24.8504 21.9498V24.4273Z" fill="white"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <svg class="footer__social__icon" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                                <circle cx="27.4711" cy="27.3563" r="26.3563" stroke="#70B22F" stroke-width="1.32311"/>
+                                                <path d="M37.5462 22.3471C37.2927 21.4293 36.5496 20.7058 35.6073 20.4587C33.8857 20 26.9993 20 26.9993 20C26.9993 20 20.1131 20 18.3915 20.4413C17.4673 20.6882 16.7061 21.4295 16.4526 22.3471C15.9995 24.0235 15.9995 27.5 15.9995 27.5C15.9995 27.5 15.9995 30.994 16.4526 32.6529C16.7063 33.5705 17.4492 34.294 18.3917 34.5412C20.1312 35 26.9995 35 26.9995 35C26.9995 35 33.8857 35 35.6073 34.5587C36.5498 34.3117 37.2927 33.5882 37.5465 32.6705C37.9994 30.994 37.9994 27.5177 37.9994 27.5177C37.9994 27.5177 38.0175 24.0235 37.5462 22.3471ZM24.8068 30.7117V24.2883L30.5332 27.5L24.8068 30.7117Z" fill="white"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <svg class="footer__social__icon" width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="27.5287" cy="27.3563" r="26.3563" stroke="#70B22F" stroke-width="1.32311"/>
+                                                <g clip-path="url(#clip0_909_359)">
+                                                    <path d="M25.2137 31.5008L22.1719 35.205C21.7439 35.7261 21.9484 36.5132 22.5759 36.7602L25.5498 37.9307C26.1913 38.1832 26.8887 37.7215 26.907 37.0323L27.0352 32.1802C27.061 31.202 25.8347 30.7446 25.2137 31.5008Z" fill="white"/>
+                                                    <path d="M24.7084 27.8176L20.1972 26.1979C19.5625 25.97 18.89 26.4271 18.8683 27.1012L18.7657 30.2954C18.7435 30.9846 19.4127 31.4862 20.068 31.2717L24.6809 29.7614C25.6108 29.457 25.6293 28.1482 24.7084 27.8176Z" fill="white"/>
+                                                    <path d="M29.8786 28.3372L34.4994 27.0636C35.1496 26.8844 35.4362 26.1234 35.0657 25.5598L33.3103 22.8892C32.9316 22.3131 32.0955 22.2883 31.6834 22.8411L28.7818 26.7322C28.1969 27.5165 28.9354 28.5972 29.8786 28.3372Z" fill="white"/>
+                                                    <path d="M26.5323 17.2337C26.5691 16.4345 25.816 15.8316 25.0442 16.0424L21.3866 17.0413C20.5975 17.2568 20.2624 18.1907 20.7344 18.8587L24.9317 26.1306C24.9658 26.1896 25.0034 26.2468 25.0476 26.2988C25.6692 27.0293 26.8361 26.7586 27.1238 25.9035C27.1755 25.7499 27.19 25.5861 27.1773 25.4245L26.5323 17.2337Z" fill="white"/>
+                                                    <path d="M34.5308 31.6623L29.8907 30.2376C28.9554 29.9504 28.1859 31.0092 28.7478 31.8101L31.5006 35.734C31.8879 36.286 32.701 36.3001 33.1072 35.7618L35.0322 33.2107C35.4475 32.6604 35.1898 31.8647 34.5308 31.6623Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_909_359">
+                                                        <rect width="22" height="22" fill="white" transform="translate(15.9995 16)"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <svg class="footer__social__icon" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                                <circle cx="27.5863" cy="27.3563" r="26.3563" stroke="#70B22F" stroke-width="1.32311"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M27.5823 18.5703C25.1956 18.5703 24.8984 18.5806 23.9598 18.6245C20.7677 18.7709 18.996 20.5412 18.8496 23.7332C18.8071 24.6718 18.7969 24.9705 18.7969 27.3558C18.7969 29.7425 18.8071 30.0412 18.8496 30.9783C18.996 34.1689 20.7677 35.9421 23.9598 36.0885C24.8984 36.131 25.1956 36.1412 27.5823 36.1412C29.969 36.1412 30.2677 36.131 31.2063 36.0885C34.3925 35.9421 36.1716 34.1718 36.3151 30.9783C36.3575 30.0412 36.3678 29.7425 36.3678 27.3558C36.3678 24.9705 36.3575 24.6718 36.3151 23.7332C36.1716 20.5456 34.3984 18.7694 31.2063 18.6245C30.2677 18.5806 29.969 18.5703 27.5823 18.5703ZM27.5759 20.1551C29.9216 20.1551 30.1998 20.1639 31.1266 20.2064C33.509 20.3147 34.6189 21.4437 34.7287 23.807C34.7697 24.7338 34.7785 25.0106 34.7785 27.3563C34.7785 29.702 34.7697 29.9802 34.7287 30.9056C34.6189 33.2674 33.5104 34.3993 31.1266 34.5076C30.1998 34.5486 29.923 34.5589 27.5759 34.5589C25.2301 34.5589 24.9519 34.5501 24.0265 34.5076C21.6398 34.3978 20.5343 33.2645 20.4245 30.9056C20.3835 29.9802 20.3733 29.702 20.3733 27.3563C20.3733 25.0106 20.3835 24.7324 20.4245 23.807C20.5329 21.4422 21.6428 20.3133 24.0265 20.2049C24.9519 20.1625 25.2301 20.1551 27.5759 20.1551ZM23.0703 27.3551C23.0703 24.863 25.091 22.8438 27.5817 22.8438C30.0723 22.8438 32.093 24.8644 32.093 27.3551C32.093 29.8472 30.0723 31.8664 27.5817 31.8664C25.091 31.8664 23.0703 29.8472 23.0703 27.3551ZM27.5853 30.2856C25.9673 30.2856 24.6568 28.9751 24.6568 27.3571C24.6568 25.7406 25.9673 24.4286 27.5853 24.4286C29.2018 24.4286 30.5153 25.7391 30.5153 27.3571C30.5153 28.9751 29.2018 30.2856 27.5853 30.2856ZM31.2223 22.6659C31.2223 22.0832 31.6952 21.6117 32.2766 21.6117C32.8608 21.6117 33.3323 22.0832 33.3323 22.6659C33.3323 23.2487 32.8593 23.7202 32.2766 23.7202C31.6938 23.7202 31.2223 23.2472 31.2223 22.6659Z" fill="white"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <svg class="footer__social__icon" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                                <circle cx="27.6435" cy="27.3563" r="26.3563" stroke="#70B22F" stroke-width="1.32311"/>
+                                                <path d="M28.3012 16C22.2292 16 19 20.0396 19 24.4443C19 26.487 20.0995 29.0344 21.8595 29.8423C22.1267 29.9674 22.2721 29.9142 22.3316 29.6569C22.3843 29.4614 22.6155 28.5198 22.7277 28.0755C22.7623 27.9332 22.7443 27.8096 22.6335 27.6759C22.0492 26.9744 21.5853 25.6964 21.5853 24.4974C21.5853 21.4254 23.9379 18.4424 27.9412 18.4424C31.403 18.4424 33.8248 20.777 33.8248 24.1165C33.8248 27.8901 31.9015 30.5007 29.402 30.5007C28.0187 30.5007 26.9885 29.3737 27.3153 27.9792C27.7099 26.3188 28.484 24.5334 28.484 23.3359C28.484 22.262 27.8996 21.3736 26.706 21.3736C25.2977 21.3736 24.1553 22.8212 24.1553 24.7648C24.1553 25.9997 24.5763 26.8335 24.5763 26.8335C24.5763 26.8335 23.1832 32.6758 22.9243 33.7669C22.4867 35.6141 22.9838 38.6057 23.0268 38.863C23.0531 39.0054 23.2068 39.0499 23.2926 38.9335C23.4297 38.7466 25.1135 36.2524 25.5857 34.4497C25.7574 33.7927 26.4623 31.1289 26.4623 31.1289C26.9261 31.9987 28.2652 32.7275 29.6914 32.7275C33.9342 32.7275 37 28.8561 37 24.0518C36.9848 19.4458 33.1879 16 28.3012 16Z" fill="white"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="footer__title clip-text">Subscribe to Bitwood Build</h3>
+                        <form class="uk-grid-small" uk-grid>
+                            <div class="" uk-toggle="cls: uk-width-expand; mode: media; media: (max-width: 1200px)">
+                                <input class="footer__form__input uk-input width-475px" type="text" placeholder="E-mail" aria-label="E-mail">
+                            </div>
+                            <div class="uk-width-auto">
+                                <button type="submit" class="home__btn home__btn--success uk-button uk-button-primary uk-border-pill">
+                                    Subscribe
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1 15L15 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1 1L15 1L15 15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="uk-child-width-1-3@l item-101px" uk-grid>
+                            <div>
+                                <h3 class="footer__title clip-text"><span>Quick Links</span></h3>
+                                <ul class="footer__nav uk-nav uk-nav-default">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Investor</a></li>
+                                    <li><a href="#">Price Guide</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="footer__title clip-text"><span>Contact</span></h3>
+                                <ul class="footer__nav footer__nav--address uk-nav uk-nav-default">
+                                    <li class="email"><a href="">Info@bitwoodbuild.com</a></li>
+                                    <li class="phone"><a href="">404-445-5424</a></li>
+                                    <li class="location"><a href="">6065 Roswell Rd. Suite #405 Sandy Springs, GA 30328</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="footer__title clip-text"><span>Make Appointment</span></h3>
+                                <ul class="footer__nav uk-nav uk-nav-default">
+                                    <li><a href="#">Get In Touch</a></li>
+                                    <li><a href="#">Budget Calculator</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-section-xsmall footer__copyTxt">
+                Copyright © 2024 – Bitwood Build, LLC– All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</div>
+<!--/app-->
 </body>
 </html>

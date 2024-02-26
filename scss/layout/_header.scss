@@ -1,0 +1,35 @@
+.header{
+  &__position{
+    @include top(66px);
+  }
+  &__navbar{
+    &__logo{
+      img{
+        @include height(69px);
+        transition: all .3s;
+        .uk-sticky-fixed &{
+          height: 53px;
+        }
+      }
+    }
+    .uk-navbar-nav{
+      >li{
+        >a{
+          text-transform: inherit;
+          @include font-size(20px);
+          font-weight: 500;
+          color: #fff;
+        }
+      }
+    }
+    &__searchIcon{
+      border: 1px solid #FFF;
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+  }
+}

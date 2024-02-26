@@ -1,4 +1,4 @@
-$j:118px,305px,324px,388px,463px,475px,592px,651px,696px,841px,1021px,1078px,1084px,1266px;
+$j:118px,305px,324px,376px,388px,463px,475px,533px,592px,651px,696px,803px,841px,906px,1021px,1078px,1084px,1151px,1209px,1266px,1526px;
 @each $i in $j {
   .width-#{$i}{
     max-width: 100%;

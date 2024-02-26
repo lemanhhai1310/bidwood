@@ -4,7 +4,7 @@
             <div class="uk-grid-292-l" uk-grid>
                 <div class="uk-width-auto@l">
                     <div class="footer__boxFlex uk-flex uk-flex-column">
-                        <figure class="footer__logo"><a href=""><img src="images/logo_footer.png" alt=""></a></figure>
+                        <figure class="footer__logo"><a href=""><img class="lazy" data-src="images/logo_footer.png" alt=""></a></figure>
                         <p class="footer__txt1 width-388px">At Bitwood Build, we are here to manage every aspect of your home construction or service process.  </p>
                         <div>
                             <div class="uk-child-width-auto uk-grid-8" uk-grid>

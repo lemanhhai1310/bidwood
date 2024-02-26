@@ -24,8 +24,12 @@
     }
   }
   &__btn{
-    @include padding-left(24px);
-    @include padding-right(24px);
+    padding-left: 10px;
+    padding-right: 10px;
+    @include media-breakpoint-up('l'){
+      @include padding-left(24px);
+      @include padding-right(24px);
+    }
     @include line-height(56px);
     color: #fff !important;
     @include font-size(20px);
@@ -49,7 +53,63 @@
       }
     }
   }
+  &__banner{
+    &__bg{
+
+    }
+    &__section{
+      @include padding-top(140px);
+      @include padding-bottom(140px);
+    }
+    &__title{
+      @include font-size(60px);
+      span{
+        display: flex;
+        color: var(--00-ca-2-d, #70B22F);
+      }
+    }
+    &__desc{
+      line-height: 1.6;
+      @include font-size(20px);
+    }
+  }
+  &__intro{
+    &__section{
+      background: linear-gradient(91deg, #101217 -23.29%, #323640 95.58%);
+    }
+    &__box{
+      @include padding-left(61px);
+      border-left: 1px solid rgba(#fff, 0.5);
+      &__title{
+        @include font-size(40px);
+        font-weight: 500;
+        line-height: 1.57;
+        @include margin-top(97px);
+      }
+      &__txt{
+        line-height: 1.7;
+        @include font-size(20px);
+        @include margin-top(8px);
+      }
+    }
+  }
+  &__who{
+    &__section{
+      background: url(images/top-left.png) top left no-repeat,
+                  url(images/bg_who_3Ellips26.png) bottom center no-repeat,
+                  url(images/bg_who_2Ellips26.png) bottom right no-repeat;
+    }
+    &__txt{
+      line-height: 1.4;
+      @include font-size(24px);
+    }
+  }
   &__expertise{
+    &__section{
+      background: url(images/top-left.png) top left no-repeat,
+                  url(images/right-center.png) center right no-repeat,
+                  url(images/bottom-left.png) bottom left no-repeat;
+    }
     &__title1{
       color: #FFF;
       leading-trim: both;

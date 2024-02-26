@@ -717,6 +717,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin-top: 292px;
 }
 
+.anima {
+  opacity: 0 !important;
+  -webkit-transform: translateY(65px);
+  transform: translateY(65px);
+}
+.anima.animate {
+  opacity: 1 !important;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: opacity 0.8s ease-in-out, -webkit-transform 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.8s ease-in-out, -webkit-transform 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.8s ease-in-out, transform 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.8s ease-in-out, transform 0.8s cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
 .line-clamp-1 {
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -797,12 +812,30 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
 }
 
+.item-60px:nth-child(n+2) {
+  margin-top: calc(1.5rem + 3vw);
+}
+@media (min-width: 1200px) {
+  .item-60px:nth-child(n+2) {
+    margin-top: 3.75rem;
+  }
+}
+
 .item-69px:nth-child(n+2) {
   margin-top: calc(1.55625rem + 3.675vw);
 }
 @media (min-width: 1200px) {
   .item-69px:nth-child(n+2) {
     margin-top: 4.3125rem;
+  }
+}
+
+.item-85px:nth-child(n+2) {
+  margin-top: calc(1.65625rem + 4.875vw);
+}
+@media (min-width: 1200px) {
+  .item-85px:nth-child(n+2) {
+    margin-top: 5.3125rem;
   }
 }
 
@@ -920,6 +953,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   width: 324px;
 }
 
+.width-376px {
+  max-width: 100%;
+  width: 376px;
+}
+
 .width-388px {
   max-width: 100%;
   width: 388px;
@@ -933,6 +971,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .width-475px {
   max-width: 100%;
   width: 475px;
+}
+
+.width-533px {
+  max-width: 100%;
+  width: 533px;
 }
 
 .width-592px {
@@ -950,9 +993,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   width: 696px;
 }
 
+.width-803px {
+  max-width: 100%;
+  width: 803px;
+}
+
 .width-841px {
   max-width: 100%;
   width: 841px;
+}
+
+.width-906px {
+  max-width: 100%;
+  width: 906px;
 }
 
 .width-1021px {
@@ -970,9 +1023,60 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   width: 1084px;
 }
 
+.width-1151px {
+  max-width: 100%;
+  width: 1151px;
+}
+
+.width-1209px {
+  max-width: 100%;
+  width: 1209px;
+}
+
 .width-1266px {
   max-width: 100%;
   width: 1266px;
+}
+
+.width-1526px {
+  max-width: 100%;
+  width: 1526px;
+}
+
+.header__position {
+  top: calc(1.5375rem + 3.45vw);
+}
+@media (min-width: 1200px) {
+  .header__position {
+    top: 4.125rem;
+  }
+}
+.header__navbar__logo img {
+  height: calc(1.55625rem + 3.675vw);
+  transition: all 0.3s;
+}
+@media (min-width: 1200px) {
+  .header__navbar__logo img {
+    height: 4.3125rem;
+  }
+}
+.uk-sticky-fixed .header__navbar__logo img {
+  height: 53px;
+}
+.header__navbar .uk-navbar-nav > li > a {
+  text-transform: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+.header__navbar__searchIcon {
+  border: 1px solid #FFF;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 .footer__top__section {
@@ -1130,8 +1234,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
 }
 .home__btn {
-  padding-left: calc(1.275rem + 0.3vw);
-  padding-right: calc(1.275rem + 0.3vw);
+  padding-left: 10px;
+  padding-right: 10px;
   line-height: calc(1.475rem + 2.7vw);
   color: #fff !important;
   font-size: 1rem;
@@ -1144,10 +1248,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 @media (min-width: 1200px) {
   .home__btn {
+    padding-left: calc(1.275rem + 0.3vw);
+    padding-right: calc(1.275rem + 0.3vw);
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .home__btn {
     padding-left: 1.5rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (min-width: 1200px) {
   .home__btn {
     padding-right: 1.5rem;
   }
@@ -1169,6 +1279,79 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .home__btn--outline:hover {
   background: var(--00-ca-2-d, #70B22F) !important;
+}
+.home__banner__section {
+  padding-top: calc(2rem + 9vw);
+  padding-bottom: calc(2rem + 9vw);
+}
+@media (min-width: 1200px) {
+  .home__banner__section {
+    padding-top: 8.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  .home__banner__section {
+    padding-bottom: 8.75rem;
+  }
+}
+.home__banner__title {
+  font-size: calc(1.425rem + 2.1vw);
+}
+@media (min-width: 1200px) {
+  .home__banner__title {
+    font-size: 3rem;
+  }
+}
+.home__banner__title span {
+  display: flex;
+  color: var(--00-ca-2-d, #70B22F);
+}
+.home__banner__desc {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.home__intro__section {
+  background: linear-gradient(91deg, #101217 -23.29%, #323640 95.58%);
+}
+.home__intro__box {
+  padding-left: calc(1.50625rem + 3.075vw);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 1200px) {
+  .home__intro__box {
+    padding-left: 3.8125rem;
+  }
+}
+.home__intro__box__title {
+  font-size: calc(1.325rem + 0.9vw);
+  font-weight: 500;
+  line-height: 1.57;
+  margin-top: calc(1.73125rem + 5.775vw);
+}
+@media (min-width: 1200px) {
+  .home__intro__box__title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .home__intro__box__title {
+    margin-top: 6.0625rem;
+  }
+}
+.home__intro__box__txt {
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.home__who__section {
+  background: url(images/top-left.png) top left no-repeat, url(images/bg_who_3Ellips26.png) bottom center no-repeat, url(images/bg_who_2Ellips26.png) bottom right no-repeat;
+}
+.home__who__txt {
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+.home__expertise__section {
+  background: url(images/top-left.png) top left no-repeat, url(images/right-center.png) center right no-repeat, url(images/bottom-left.png) bottom left no-repeat;
 }
 .home__expertise__title1 {
   color: #FFF;

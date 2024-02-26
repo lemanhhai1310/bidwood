@@ -365,3 +365,9 @@ $rfs-mq-property-height: if($rfs-mode == max-media-query, max-height, min-height
 @mixin letter-spacing($value) {
   @include rfs($value, letter-spacing);
 }
+@mixin top($value) {
+  @include rfs($value, top);
+}
+@mixin bottom($value) {
+  @include rfs($value, bottom);
+}
