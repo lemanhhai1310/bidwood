@@ -4,6 +4,54 @@
 
 <div class="uk-section-large">
     <div class="uk-container uk-container-xlarge">
+        <div class="uk-grid-divider uk-grid-large" uk-grid>
+            <div class="uk-width-expand">
+                <h3 class="home__Testimonials__title" uk-toggle="cls: uk-margin-top; mode: media; media: @l">Our Expertise</h3>
+                <div class="item-400px">
+                    <h2 class="home__expertise__title1"><span class="uk-position-z-index-negative">230+</span></h2>
+                    <div class="home__expertise__title2">Completed Project</div>
+                </div>
+            </div>
+            <div class="uk-width-auto@l">
+                <div class="width-1084px">
+                    <h2 class="home__title home__title--67 clip-text">Nulla neque lorem aliquam lectus consequat scelerisque fermentum.</h2>
+                    <p class="home__contact__txt width-651px item-46px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc. Malesuada eget non pretium aliquet. Imperdiet id amet pulvinar eleifend mauris</p>
+                    <div class="uk-child-width-1-2@l item-208px" uk-grid>
+                        <?php
+                        $data = array(
+                            array(
+                                'img' => 'images/v1.png',
+                                'title' => 'High Quality',
+                                'txt' => '',
+                            ),
+                            array(
+                                'img' => 'images/v2.png',
+                                'title' => 'Professional Technique',
+                                'txt' => '',
+                            ),
+                            array(
+                                'img' => 'images/v3.png',
+                                'title' => 'Varierty of Material',
+                                'txt' => '',
+                            ),
+                            array(
+                                'img' => 'images/v4.png',
+                                'title' => 'Custom Production',
+                                'txt' => '',
+                            ),
+                        );
+                        foreach ($data as $k=>$v): ?>
+                        <div>
+                            <div class="home__expertise__box uk-background-norepeat" style="--img: url(<?= $v['img'] ?>)">
+                                <h4 class="home__expertise__box__title clip-text"><?= $v['title'] ?></h4>
+                                <p class="home__contact__txt width-305px">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra.</p>
+                            </div>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="home__startBox uk-card uk-card-body item-216px uk-text-center">
             <div class="home__contact__flex uk-flex uk-flex-column">
                 <h2 class="home__title uk-position-z-index clip-text home__title--60 home__title--lineBottom">Start The Process Now!</h2>
