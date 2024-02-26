@@ -3,7 +3,7 @@ $primary-color: #E68500;
 $secondary-color: #666AEE;
 
 // Fonts families
-$font-primary: 'Arial Regular',sans-serif;
+$font-primary: 'DM Sans',sans-serif;
 //$font-Roboto: 'Roboto Regular',sans-serif;
 //$font-Roboto-Bold: 'Roboto Bold',sans-serif;
 //$font-Roboto-Medium: 'Roboto Medium',sans-serif;
@@ -15,8 +15,8 @@ $font-primary: 'Arial Regular',sans-serif;
 //$font-secondary: 'Playfair Display',sans-serif;
 
 // Font-size base
-$base-font: 14px !default;
-$base-design-font: 14px !default;
+$base-font: 16px !default;
+$base-design-font: 20px !default;
 @function -convert($value){
   @return (($value*$base-font)/$base-design-font);
 }
