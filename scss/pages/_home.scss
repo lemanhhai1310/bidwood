@@ -34,6 +34,7 @@
     gap: 10px;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     &--success{
       background: var(--00-ca-2-d, #70B22F) !important;
       &:hover{
@@ -46,6 +47,28 @@
       &:hover{
         background: var(--00-ca-2-d, #70B22F) !important;
       }
+    }
+  }
+  &__startBox{
+    background: linear-gradient(91deg, #101217 -23.29%, #323640 95.58%);
+    position: relative;
+    //min-height: 516px;
+    @include media-breakpoint-up('l'){
+      @include padding-top(70px);
+      @include padding-bottom(107px);
+      @include padding-left(147px);
+      @include padding-right(147px);
+    }
+    &:before{
+      content: "";
+      background: url(images/Start_Ellipse29.png) no-repeat bottom left;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      //z-index: -1;
+      z-index: 1;
     }
   }
   &__service{

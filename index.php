@@ -4,6 +4,23 @@
 
 <div class="uk-section-large">
     <div class="uk-container uk-container-xlarge">
+        <div class="home__startBox uk-card uk-card-body item-216px uk-text-center">
+            <div class="home__contact__flex uk-flex uk-flex-column">
+                <h2 class="home__title uk-position-z-index clip-text home__title--60 home__title--lineBottom">Start The Process Now!</h2>
+                <div class="home__contact__txt uk-position-z-index width-1021px uk-margin-auto">Lorem ipsum dolor sit amet consectetur. Iaculis ac vitae a rutrum in non nullam viverra. Est mattis dolor eget sociis quam nunc. Malesuada eget non pretium aliquet. Imperdiet id amet pulvinar eleifend mauris</div>
+                <div class="uk-position-z-index uk-child-width-1-3@l uk-grid-small uk-grid-32-l" uk-grid>
+                    <div>
+                        <a href="" class="home__btn uk-width home__btn--outline uk-button uk-button-primary uk-border-pill">Get Started on Your Dream Bathroom!</a>
+                    </div>
+                    <div>
+                        <a href="" class="home__btn uk-width home__btn--outline uk-button uk-button-primary uk-border-pill">Get Started on Your Dream Kitchen</a>
+                    </div>
+                    <div>
+                        <a href="" class="home__btn uk-width home__btn--outline uk-button uk-button-primary uk-border-pill">Get Started on Your Basement</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="uk-child-width-auto uk-flex-between item-273px" uk-grid>
             <div>
                 <h3 class="home__Testimonials__title" uk-toggle="cls: uk-margin-top; mode: media; media: @l">Our Sevices</h3>
